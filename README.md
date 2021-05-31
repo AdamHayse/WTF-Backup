@@ -29,7 +29,7 @@
 - Notepad++ (Recommended) (Get most recent version from here: https://notepad-plus-plus.org/downloads/)
 
 #### Set Up Backup Directory
-- Extract contents from WTF Backup.zip to where you want your backup stored. I have mine at C:\Users\Adam\Desktop\WTF Backup. There should be 4 files in WTF Backup.
+- Extract contents from WTF Backup.zip to where you want your backup stored. I have mine at C:\Users\Adam\Desktop\WTF Backup.
 
 #### Configure Backup Directory Files
 1. Right click initialize_backup_directories.cmd and click Edit with Notepad++ (or just Edit if you didn't install Notepad++).
@@ -187,7 +187,7 @@ I use GitHub for cloud storage, so I'll use this as an example.
 	- If a prompt for a username and password appears, enter your username and password.
 	- This prompt generally only happens once, so I don't remember the exact process. If you can't figure it out, then you probably shouldn't be using this VCS strategy.
 10. That's it. You can close Command Prompt.
-Note: Remote backup will not happen automatically when exiting that game like the local backup does. It must be pushed manually. Push manually by opening right clicking in the empty space within the directory, clicking "Git Bash Here", and then entering the following command:
+Note: Remote backup will not happen automatically when exiting that game like the local backup does. It must be pushed manually. Push manually by right clicking in the empty space within the directory, clicking "Git Bash Here", and then entering the following command:
 		
 	    git push
 		
