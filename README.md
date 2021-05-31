@@ -25,7 +25,7 @@
 - AutoHotkey (Download current version from here: https://www.autohotkey.com/)
 - Lua for Windows v5.1.5-52 (Download the .exe from here: https://github.com/rjpcomputing/luaforwindows/releases)
 - Git (Version shouldn't matter. Just get the most recent from here: https://git-scm.com/download/win)
-- WTF Backup.zip (Batch files and scripts that I wrote to make this work): 
+- WTF Backup.zip (The code in this repo: https://github.com/AdamHayse/WTF-Backup)
 - Notepad++ (Recommended) (Get most recent version from here: https://notepad-plus-plus.org/downloads/)
 
 #### Set Up Backup Directory
