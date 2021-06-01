@@ -46,7 +46,7 @@ if exist "%wow_dir%" (
 						echo Committing...
 						git add . >nul 2>&1
 						git commit -m "Initial commit" --quiet
-                        git branch -m master main
+						git branch -m master main
 						echo Done.
 						cd ..
 					)
