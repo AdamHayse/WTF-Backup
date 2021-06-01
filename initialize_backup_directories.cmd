@@ -23,7 +23,6 @@ if exist "%wow_dir%" (
 						cd %%~A Backup
 						git init --quiet
 						git config --local core.autocrlf false
-						git branch -m master main
 						echo "" > .gitignore
 						(echo git reset --hard && echo git clean -fdq && echo git checkout main && echo pause) > restore_to_current_version.cmd
 						(echo git add .gitignore && echo git commit -m "Update .gitignore" && echo pause) > commit_gitignore.cmd
@@ -47,6 +46,7 @@ if exist "%wow_dir%" (
 						echo Committing...
 						git add . >nul 2>&1
 						git commit -m "Initial commit" --quiet
+                        git branch -m master main
 						echo Done.
 						cd ..
 					)
